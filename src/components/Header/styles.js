@@ -16,7 +16,7 @@ export const Container = styled(Row)`
             height: 70px;
             background: #fff;
             box-shadow: 0 0 3px rgba(0,0,0,0.2);
-            margin-bottom: 70px;
+        
         }
 
         .fixed {
@@ -26,7 +26,7 @@ export const Container = styled(Row)`
 `;
 
 export const HeaderContainer = styled.header`
-    width: 100%;
+     
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -34,14 +34,14 @@ export const HeaderContainer = styled.header`
     position: fixed;
     right: 0;
     left: 0;
-    margin-bottom: -96px;
+ 
 
     color: white;
     padding: 20px; 
     margin-right: auto;
     margin-left: auto;
     max-width: 1440px; 
-    overflow: hidden; 
+
     
     transition: all 0.5s ease 0s;
     position: relative;
@@ -60,7 +60,7 @@ export const HeaderContainer = styled.header`
     &.relative {
         position: relative;
         height: 96px;
-        background: transparent;
+        background: black;
         border-bottom: 1px solid #666!important;
     }
 
@@ -72,12 +72,14 @@ export const HeaderContainer = styled.header`
 `;
 
 export const Logo = styled.img`
- height: 48px;
+ height: 88px;
+
 `;
 
 export const SectionItemContainer = styled.nav`
-backgroud-color: black;
+
     ul {
+        padding: 0;
         margin-bottom: 0;
     }
 

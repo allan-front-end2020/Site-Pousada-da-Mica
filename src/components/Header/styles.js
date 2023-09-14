@@ -54,14 +54,14 @@ export const HeaderContainer = styled.header`
         width: 100%;
         height: 75px;
         background: #fff;
-        box-shadow: 0 0 3px rgba(0,0,0,0.2);
+
     }
 
     &.relative {
-        position: relative;
+        position: absolute;
         height: 96px;
-        background: black;
-        border-bottom: 1px solid #666!important;
+        background: transparent;
+      
     }
 
     .ant-avatar {
@@ -98,7 +98,7 @@ export const SectionItemContainer = styled.nav`
             font-weight: 700;
 
             &:hover {
-                color: #c82b00;
+                color: #c82;
                 cursor: pointer;
             }
         }
@@ -132,7 +132,7 @@ export const AdmContainer = styled.div`
 export const Button = styled.button`
  width: 150px;
  height: 43px;
- background-color: #eb3300;
+ background-color: #eb3;
  border: unset;
  border-radius: 4px;
  color: white;
@@ -140,8 +140,9 @@ export const Button = styled.button`
  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 
  &:hover {
-    background-color: #c82b00;
+    background-color: #c82;
     cursor: pointer;
+    color :black;
  }
  `;
 
